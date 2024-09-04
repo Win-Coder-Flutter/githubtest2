@@ -48,11 +48,14 @@ android {
         prod{
             dimension 'default'
             resValue "string", "app_name", "Prod"
+            versionName "1.0.0"
+            versionCode 1
         }
         dev{
             dimension 'default'
             applicationIdSuffix '.dev'
             resValue "string", "app_name", "Dev"
+            versionName "1.0.1"           
         }
       
     }
